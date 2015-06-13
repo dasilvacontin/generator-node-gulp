@@ -40,5 +40,5 @@ Copyright (c) <%= currentYear %><% if (props.authorName) { %> <%= props.authorNa
 [travis-image]: https://travis-ci.org/<%= props.githubUsername %>/<%= slugname %>.svg?branch=master
 [daviddm-url]: https://david-dm.org/<%= props.githubUsername %>/<%= slugname %>.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/<%= props.githubUsername %>/<%= slugname %><% if (coverallsModule) { %>
-[coveralls-url]: https://coveralls.io/r/<%= props.githubUsername %>/<%= slugname %>
-[coveralls-image]: https://coveralls.io/repos/<%= props.githubUsername %>/<%= slugname %>/badge.png<% } %>
+[coveralls-url]: https://coveralls.io/r/<%= props.githubUsername %>/<%= slugname %>?branch=master
+[coveralls-image]: https://coveralls.io/repos/<%= props.githubUsername %>/<%= slugname %>/badge.svg?branch=master<% } %>
